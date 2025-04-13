@@ -2,6 +2,7 @@ import { Tool } from './Tool'
 import { AgentTool } from './tools/AgentTool/AgentTool'
 import { ArchitectTool } from './tools/ArchitectTool/ArchitectTool'
 import { BashTool } from './tools/BashTool/BashTool'
+import { BNBChainWalletTool } from './tools/BNBChainWalletTool/BNBChainWalletTool'
 import { FileEditTool } from './tools/FileEditTool/FileEditTool'
 import { FileReadTool } from './tools/FileReadTool/FileReadTool'
 import { FileWriteTool } from './tools/FileWriteTool/FileWriteTool'
@@ -23,6 +24,7 @@ export const getAllTools = (): Tool[] => {
   return [
     AgentTool,
     BashTool,
+    BNBChainWalletTool,
     GlobTool,
     GrepTool,
     LSTool,

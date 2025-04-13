@@ -1,14 +1,13 @@
-# ANON KODE
-
+# VIBE TRADING
 
 https://github.com/user-attachments/assets/7a9253a7-8bb0-40d5-a3f3-5e6096d7c789
 
-
-Terminal-based AI coding tool that can use any model that supports the OpenAI-style API.
+Terminal-based AI trading assistant with BNB Chain wallet integration.
 
 - Fixes your spaghetti code
 - Explains wtf that function does
 - Runs tests, shell commands and stuff
+- Integrates with BNB Chain for wallet operations
 - Whatever else claude-code can do, depending on the model you use
 
 ## HOW TO USE

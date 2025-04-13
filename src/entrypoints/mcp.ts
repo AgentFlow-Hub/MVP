@@ -21,6 +21,7 @@ import { FileReadTool } from '../tools/FileReadTool/FileReadTool'
 import { GlobTool } from '../tools/GlobTool/GlobTool'
 import { GrepTool } from '../tools/GrepTool/GrepTool'
 import { FileWriteTool } from '../tools/FileWriteTool/FileWriteTool'
+import { BNBChainWalletTool } from '../tools/BNBChainWalletTool/BNBChainWalletTool'
 import { Tool } from '../Tool'
 import { Command } from '../commands'
 import review from '../commands/review'
@@ -45,6 +46,7 @@ const MCP_TOOLS: Tool[] = [
   GrepTool,
   FileWriteTool,
   LSTool,
+  BNBChainWalletTool,
 ]
 
 export async function startMCPServer(cwd: string): Promise<void> {
